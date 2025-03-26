@@ -1,0 +1,80 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+/* Links */
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-links .active {
+    color: #00aaff;
+}
+
+/* Icons */
+.social-icons a {
+    color: #fff;
+    margin: 0 8px;
+    font-size: 20px;
+}
+
+
+.hero-section {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    padding-left: 10%; /* Mueve el contenido hacia la izquierda */
+}
+
+
+.hero-content {
+    max-width: 400px;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
